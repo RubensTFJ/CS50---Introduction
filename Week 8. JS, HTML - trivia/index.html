@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Teste Site</title>
+        <script>src="java.js"</script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Test Button</h2>
+                <button id="first", onclick = "changecolor(first)">Option 1</button>
+                <button id="second", onclick = "changecolor(second)">Option 2</button>
+                <button id="third", onclick = "changecolor(third)">Option 3</button>
+                <button id="fourth", onclick = "changecolor(fourth)">Option 4</button>
+            </div>
+
+            <div class="section">
+                <h2>Test Box</h2>
+                <hr>
+                <input id="box", type="text">
+                <button id="answear", onclick="saveanswear()">Submit</button>
+            </div>
+        </div>
+    </body>
+</html>
